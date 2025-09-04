@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hydrological Metrics Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hydrological Metrics Calculator</h1>
+
+  <p>Upload two CSV files with one column of numbers each:</p>
+  <label>Measured data: <input type="file" id="measuredFile"></label><br><br>
+  <label>Observed data: <input type="file" id="observedFile"></label><br><br>
+
+  <button onclick="processFiles()">Calculate</button>
+
+  <h2>Results</h2>
+  <pre id="results"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
